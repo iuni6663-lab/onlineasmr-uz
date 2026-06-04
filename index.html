@@ -13,6 +13,11 @@
             font-family: sans-serif;
             -webkit-tap-highlight-color: transparent;
         }
+        header div {
+    touch-action: manipulation; /* iPhone-da double-tap-to-zoom (yaqinlashtirish)ni o'chiradi */
+    -webkit-user-select: none;  /* Matn ko'k bo'lib belgilanishini o'chiradi */
+    user-select: none;
+}
         .video-card:hover {
             transform: translateY(-2px);
             transition: all 0.2s ease;
